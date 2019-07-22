@@ -27,8 +27,7 @@ name Trashcan
 
 # feature
 feature -TELEMETRY
-feature -ANTI_GRAVITY
-feature -DYNAMIC_FILTER
+feature -AIRMODE
 feature LED_STRIP
 
 # beeper
