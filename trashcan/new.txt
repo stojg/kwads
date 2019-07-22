@@ -1,0 +1,117 @@
+# diff
+
+# version
+# Betaflight / CRAZYBEEF4FR (C4FR) 4.0.4 Jun 30 2019 / 14:06:48 (f3a95efa3) MSP API: 1.41
+
+# start the command batch
+batch start
+
+board_name CRAZYBEEF4FR
+manufacturer_id
+
+# name
+name Trashcan
+
+# resources
+
+# timer
+
+# dma
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -ANTI_GRAVITY
+feature -DYNAMIC_FILTER
+feature MOTOR_STOP
+feature LED_STRIP
+
+# beeper
+
+# beacon
+
+# map
+map TAER1234
+
+# serial
+serial 0 2048 115200 57600 0 115200
+
+# led
+led 0 4,7::CO:2
+led 1 5,7::CO:2
+led 2 6,7::CO:2
+led 3 7,7::CO:2
+led 4 8,7::CO:2
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 900 1075 0 0
+aux 1 1 2 1850 2100 0 0
+aux 2 35 1 1550 2100 0 0
+
+# adjrange
+
+# rxrange
+rxrange 0 988 2012
+rxrange 1 988 2012
+rxrange 2 988 2010
+rxrange 3 988 2012
+
+# vtx
+
+# rxfail
+
+# display_name
+
+# master
+set rx_spi_protocol = FRSKY_D
+set motor_pwm_protocol = DSHOT600
+set ibata_scale = 1175
+set yaw_motors_reversed = ON
+set osd_warn_esc_fail = OFF
+set osd_vbat_pos = 2102
+set osd_rssi_pos = 2083
+set osd_tim_1_pos = 54
+set osd_tim_2_pos = 2134
+set osd_flymode_pos = 2456
+set osd_throttle_pos = 2423
+set osd_crosshairs_pos = 2253
+set osd_current_pos = 2400
+set osd_mah_drawn_pos = 2432
+set osd_craft_name_pos = 2443
+set osd_warnings_pos = 329
+set osd_disarmed_pos = 2346
+set vtx_band = 5
+set vtx_channel = 8
+set vtx_power = 3
+set vtx_freq = 5917
+set frsky_spi_tx_id = 9,27
+set frsky_spi_offset = -22
+set frsky_spi_bind_hop_data = 1,111,223,96,206,81,191,66,178,51,161,36,146,21,131,6,116,226,101,211,86,196,71,181,56,166,41,151,26,136,11,121,231,106,216,93,201,76,186,61,171,48,156,31,141,16,126,0,0,0
+
+# profile
+profile 0
+
+
+# rateprofile
+rateprofile 0
+
+set roll_rc_rate = 120
+set pitch_rc_rate = 120
+set yaw_rc_rate = 130
+set roll_srate = 75
+set pitch_srate = 75
+set yaw_srate = 80
+
+# end the command batch
+batch end
+
+# 
