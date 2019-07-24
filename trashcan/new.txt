@@ -11,6 +11,8 @@ defaults nosave
 
 board_name CRAZYBEEF4FR
 manufacturer_id
+mcu_id 0066001b3437510d33353431
+signature
 
 # name
 name Trashcan
