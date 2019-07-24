@@ -1,4 +1,4 @@
-diff all
+# diff all
 
 # version
 # Betaflight / CRAZYBEEF4FR (C4FR) 4.0.4 Jun 30 2019 / 14:06:48 (f3a95efa3) MSP API: 1.41
@@ -67,7 +67,7 @@ serial 0 2048 115200 57600 0 115200
 # led
 led 0 4,7::CO:14
 led 1 5,7::CO:13
-led 2 6,7::AO:4
+led 2 6,7::AO:2
 led 3 7,7::CO:13
 led 4 8,7::CO:14
 
@@ -77,7 +77,7 @@ color 14 4,0,255
 
 # mode_color
 mode_color 6 0 2
-mode_color 6 1 12
+mode_color 6 1 8
 
 # aux
 aux 0 0 0 900 1075 0 0
