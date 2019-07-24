@@ -105,6 +105,8 @@ rxrange 3 988 2012
 # display_name
 
 # master
+set gyro_lowpass_type = PT1
+set dyn_lpf_gyro_max_hz = 750
 set rx_spi_protocol = FRSKY_D
 set motor_pwm_protocol = DSHOT600
 set vbat_max_cell_voltage = 435
@@ -139,6 +141,7 @@ set frsky_spi_bind_hop_data = 1,111,223,96,206,81,191,66,178,51,161,36,146,21,13
 # profile
 profile 0
 
+set dterm_lowpass2_hz = 0
 set vbat_pid_gain = ON
 
 # profile
