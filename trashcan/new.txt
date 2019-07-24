@@ -6,6 +6,9 @@ diff all
 # start the command batch
 batch start
 
+# reset configuration to default settings
+defaults nosave
+
 board_name CRAZYBEEF4FR
 manufacturer_id
 
