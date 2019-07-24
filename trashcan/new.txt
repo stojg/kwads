@@ -1,4 +1,4 @@
-# diff
+diff all
 
 # version
 # Betaflight / CRAZYBEEF4FR (C4FR) 4.0.4 Jun 30 2019 / 14:06:48 (f3a95efa3) MSP API: 1.41
