@@ -143,6 +143,16 @@ profile 0
 
 set dterm_lowpass2_hz = 0
 set vbat_pid_gain = ON
+set p_pitch = 33
+set i_pitch = 85
+set d_pitch = 35
+set p_roll = 28
+set i_roll = 78
+set d_roll = 32
+set d_min_roll = 16
+set d_min_pitch = 18
+set d_min_boost_gain = 30
+set d_min_advance = 0
 
 # profile
 profile 1
