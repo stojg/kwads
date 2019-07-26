@@ -147,6 +147,7 @@ set frsky_spi_bind_hop_data = 1,111,223,96,206,81,191,66,178,51,161,36,146,21,13
 # profile
 profile 0
 
+set dterm_lowpass2_type = BIQUAD
 set dterm_lowpass2_hz = 0
 set vbat_pid_gain = ON
 set p_pitch = 33
