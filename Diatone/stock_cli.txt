@@ -1,0 +1,142 @@
+# diff all
+
+# version
+# Betaflight / FURYF4OSD (FY4O) 3.5.1 Sep  8 2018 / 05:21:25 (d9fb5ca13) MSP API: 1.40
+
+board_name FURYF4OSD
+manufacturer_id 
+mcu_id 0041005b3436510337363537
+signature 
+
+# reset configuration to default settings
+defaults nosave
+
+# name
+name diatone
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature LED_STRIP
+
+# beeper
+
+# beacon
+
+# map
+
+# serial
+serial 2 8192 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1825 2100 0 0
+aux 1 28 0 1825 2100 0 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set acc_calibration = -74,13,4
+set dshot_idle_value = 300
+set motor_pwm_protocol = DSHOT600
+set vbat_max_cell_voltage = 45
+set current_meter = ADC
+set small_angle = 60
+set osd_warn_core_temp = OFF
+set osd_cap_alarm = 700
+set osd_vbat_pos = 2497
+set osd_tim_2_pos = 2519
+set osd_vtx_channel_pos = 2456
+set osd_current_pos = 233
+set osd_mah_drawn_pos = 2508
+set osd_craft_name_pos = 2102
+set osd_pidrate_profile_pos = 409
+set osd_warnings_pos = 329
+set osd_avg_cell_voltage_pos = 2433
+set vtx_band = 5
+set vtx_channel = 3
+set vtx_freq = 5732
+
+# profile
+profile 0
+
+set dterm_notch_cutoff = 0
+set anti_gravity_gain = 5500
+set feedforward_transition = 28
+set p_pitch = 28
+set i_pitch = 22
+set d_pitch = 17
+set f_pitch = 78
+set p_roll = 22
+set i_roll = 22
+set d_roll = 19
+set f_roll = 78
+set p_yaw = 23
+set i_yaw = 30
+set d_yaw = 18
+set f_yaw = 81
+set p_level = 36
+set i_level = 35
+set d_level = 0
+
+# profile
+profile 1
+
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 0
+
+# rateprofile
+rateprofile 0
+
+set pitch_rc_rate = 113
+set tpa_rate = 35
+
+# rateprofile
+rateprofile 1
+
+
+# rateprofile
+rateprofile 2
+
+
+# rateprofile
+rateprofile 3
+
+
+# rateprofile
+rateprofile 4
+
+
+# rateprofile
+rateprofile 5
+
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
